@@ -1,0 +1,65 @@
+KEYBOARD DESK
+
+⌥ Space       Search apps and actions. Type to filter, ↑/↓ to select, Return to open, Esc to dismiss.
+⌥ /           Search all window titles. Requires Accessibility access for Keyboard Desk.
+⌥ Return      Open or focus Ghostty, or Terminal if Ghostty is unavailable.
+⌃ ⌥ Return    Open the terminal even when Rift is paused.
+⌃ ⌥ B         Open or focus the default browser.
+
+macOS
+⌘ Tab         Switch apps. Keep holding ⌘ and press Tab or Shift+Tab to select.
+⌘ `           Switch windows in the current app.
+⌃ F3          Focus the Dock. On some keyboards, add Fn.
+⌃ F4          Cycle focus through active windows. On some keyboards, add Fn.
+
+KEYBOARD NAVIGATION
+Tab / Shift+Tab    Move between available controls.
+Option+Command+F5 opens macOS Accessibility Shortcuts.
+
+BROWSER
+⌘ L           Select the address bar.
+⌘ T / ⌘ W     Open or close the current tab.
+⌘ ⇧ T         Reopen the last closed tab.
+⌃ Tab         Next tab. Add Shift for previous.
+⌘ F           Find text on the page.
+⌘ [ / ⌘ ]     Back / forward.
+Esc           Dismiss an active find field or browser overlay.
+
+GHOSTTY
+⌘ N / ⌘ T     New terminal window / tab.
+⌘ D / ⌘ ⇧ D   Split the terminal right / down.
+⌘ ⌥ Arrow     Focus the neighboring split.
+⌘ ⇧ ,         Reload terminal configuration.
+
+RIFT WORKSPACES
+⌥ 1 … 0       Switch to workspace 1 … 10.
+              Native fullscreen Spaces depend on macOS support.
+⌥ ⇧ 1 … 0     Send the focused window there.
+⌥ Tab         Return to the last Rift workspace.
+              Empty workspaces appear in the bar only while selected.
+⌃ ← / →       Move to the adjacent native macOS Space, including fullscreen apps.
+⌥ H J K L     Focus left / down / up / right.
+⌥ Arrow       Focus the tile in that direction. Alternate to H/J/K/L.
+⌥ N / ⌥ P     Cycle to the next or previous window on this workspace.
+⌥ ⇧ H J K L   Move the selected window or group.
+⌥ S           Swap the focused tile with the next tile in this workspace.
+⌥ ⇧ Arrow     Join the focused window with its neighbor to form a container.
+⌥ E           Change split orientation. ⌥ W toggles stacking.
+⌥ ⌃ E         Unjoin the selected container.
+⌥ = / −       Grow or shrink the nearest split.
+⌥ R           Resize mode. H/L shrink/grow width, K/J shrink/grow height.
+              B balances, Esc or Return exits resize mode.
+⌥ ⇧ Space     Toggle floating.
+⌥ F           Fill the screen and hide the bar and frame. Press again to restore.
+⌥ ⇧ F         Maximize within gaps with the bar visible.
+⌥ ⌃ 1/2/3     Set the current workspace to Traditional / BSP / Master-stack.
+⌥ ⇧ Q         Close the current window.
+⌥ ⇧ C         Reload Rift's configuration.
+⌥ Z           Toggle tiling for the current macOS Space.
+⌃ ⌥ S         Save the current layout now.
+⌃ ⌥ ⇧ R       Save the current layout and restart Rift.
+⌃ ⌥ ⇧ B       Restart Neon Workspace Bar.
+
+1 Code · 2 Web · 3 Terminal · 4 Comms · 5 Projects
+6 Docs · 7 Review · 8 Media · 9 Tools · 10 Spare
+These are suggestions. New windows can open on any workspace.
