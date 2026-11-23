@@ -4,6 +4,7 @@
 <dict>
     <key>CFBundleDevelopmentRegion</key><string>en</string>
     <key>CFBundleExecutable</key><string>KeyboardDesk</string>
+    <key>CFBundleIconFile</key><string>MacRicing.icns</string>
     <key>CFBundleIdentifier</key><string>io.github.macricing.keyboard-desk</string>
     <key>CFBundleName</key><string>Keyboard Desk</string>
     <key>CFBundlePackageType</key><string>APPL</string>

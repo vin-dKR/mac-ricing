@@ -344,7 +344,10 @@ def build_app(source, applications, title, executable):
     contents = app / "Contents"
     macos = contents / "MacOS"
     macos.mkdir(parents=True)
+    resources = contents / "Resources"
+    resources.mkdir()
     shutil.copy2(source / "Info.plist", contents / "Info.plist")
+    shutil.copy2(REPO / "assets/brand/MacRicing.icns", resources)
     run("/usr/bin/xcrun", "swiftc", "-O", "-warnings-as-errors",
         *sorted(source.glob("*.swift")), "-o", macos / executable)
     run("/usr/bin/codesign", "--force", "--sign", "-", app)

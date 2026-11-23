@@ -84,7 +84,10 @@ for name in ("workspace-request", "swap-window.sh", "metrics.sh", "rift-events.s
     assert (current / "bin" / name).is_file()
 for app in (current / "Applications").glob("*.app"):
     with (app / "Contents/Info.plist").open("rb") as file:
-        assert plistlib.load(file)["CFBundleIdentifier"].startswith("io.github.macricing.")
+        info = plistlib.load(file)
+    assert info["CFBundleIdentifier"].startswith("io.github.macricing.")
+    icon = app / "Contents/Resources" / info["CFBundleIconFile"]
+    assert icon.read_bytes()[:4] == b"icns"
 
 sys.path.insert(0, str(Path(sys.argv[3]) / "scripts"))
 import manage

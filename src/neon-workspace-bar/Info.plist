@@ -8,6 +8,8 @@
     <string>Neon Workspace Bar</string>
     <key>CFBundleExecutable</key>
     <string>NeonWorkspaceBar</string>
+    <key>CFBundleIconFile</key>
+    <string>MacRicing.icns</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
